@@ -1,0 +1,13 @@
+uv is basically a modern replacement for pip + venv + pip-tools — all in one tool.
+
+People use uv because it’s:
+    -Much faster
+    -Simpler
+    -More reliable
+
+Run local MCP dev server
+command - uv run fastmcp dev inspector main.py
+
+
+Run MCP server
+command - uv run fastmcp run main.py
