@@ -1,5 +1,9 @@
 import random
+import logging
 from fastmcp import FastMCP
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # create a fastMCP server instance
 mcp=FastMCP(name="demo project")
