@@ -19,7 +19,5 @@ def add_numbers(a:int, b:int) -> int:
     return a+b
 
 if __name__ == "__main__":
-    # mcp.run() # don't add any args if you want local server
-    mcp.run(transport="streamable-http",
-            host="0.0.0.0", # Required for remote access on most hosting platforms
-            port=8000)
+    mcp.run(transport="stdio") # don't add any args if you want local server
+    # mcp.run(transport="streamable-http",host="0.0.0.0",  port=8000) # Required for remote access on most hosting platforms

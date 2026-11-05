@@ -5,9 +5,15 @@ People use uv because it’s:
     -Simpler
     -More reliable
 
+
+initialize uv project
+command - uv init . ( . = current directory ) 
+
+Install dependency using uv
+command - uv add <package-name>
+
 Run local MCP dev server
 command - uv run fastmcp dev inspector main.py
-
 
 Run MCP server
 command - uv run fastmcp run main.py
